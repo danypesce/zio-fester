@@ -1,0 +1,13 @@
+:root{--red:#e10600;--dark:#0b0b0d;--panel:#151519;--text:#f4f4f5;--muted:#b4b4bd}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--dark);color:var(--text);line-height:1.6}
+header{border-bottom:1px solid #29292f;background:#0e0e11;position:sticky;top:0}
+nav{max-width:1000px;margin:auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.brand{font-weight:800;letter-spacing:1px;color:#fff}.brand span{color:var(--red)}
+.links a{color:var(--muted);text-decoration:none;margin-left:18px}.links a:hover{color:#fff}
+main{max-width:900px;margin:auto;padding:70px 24px}.hero{padding:55px 0;text-align:center}
+.badge{display:inline-block;background:#2a1010;color:#ff7772;padding:6px 12px;border-radius:999px;font-size:14px}
+h1{font-size:42px;margin:18px 0}h2{color:#fff;margin-top:34px}p,li{color:var(--muted)}
+.card{background:var(--panel);border:1px solid #29292f;border-radius:14px;padding:28px;margin:22px 0}
+.button{display:inline-block;background:var(--red);color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:bold}
+footer{text-align:center;color:#777;padding:30px;border-top:1px solid #29292f}
+@media(max-width:600px){nav{padding:15px}.links a{margin-left:10px;font-size:14px}h1{font-size:32px}}
